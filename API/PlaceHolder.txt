@@ -1,0 +1,1 @@
+API key will be under GITignore, but these files are so we can point files to the correct locations and keep the project organised!

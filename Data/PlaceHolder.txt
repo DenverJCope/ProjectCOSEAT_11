@@ -1,0 +1,1 @@
+I will make sure the data files aren't uploaded, no point making the repo bigger than it needs to be, i will however keep a txt file of all data used in the training
