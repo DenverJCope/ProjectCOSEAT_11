@@ -21,3 +21,6 @@ In the initial phase, only established sources of knowledge will be included. Th
 Denver-Gurushanth-Lithika-Sahajaveer-Sahil-Parav
 
 
+
+## Libraries
+This parts for contributors, please keep a list of all packages and libraries you use during this project. i will create a list for users to install prior to using it
