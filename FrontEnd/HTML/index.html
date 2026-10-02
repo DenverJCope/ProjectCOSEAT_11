@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Traditional Knowledge Repository</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <div class="brand">
+        <span class="brand-icon" aria-hidden="true">&#127963;</span>
+        <div>
+          <h1>Traditional Knowledge Repository</h1>
+          <p>Warumungu community &middot; Tennant Creek</p>
+        </div>
+      </div>
+      <nav aria-label="Main">
+        <button data-view="search"><span aria-hidden="true">&#128269;</span> Search</button>
+        <button data-view="browse"><span aria-hidden="true">&#128214;</span> Browse</button>
+        <button data-view="submit"><span aria-hidden="true">&#128228;</span> Submit</button>
+        <button data-view="review"><span aria-hidden="true">&#9989;</span> Review queue <span id="count" class="count" hidden>0</span></button>
+      </nav>
+    </div>
+  </header>
+  <main id="app" class="wrap"></main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <footer class="wrap site-footer">
+    Prototype &middot; Nothing is published until an authorised elder or reviewer approves it.
+  </footer>
+  <script src="../JS/app.js"></script>
+</body>
+</html>
