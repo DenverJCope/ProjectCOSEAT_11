@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; margin: 0; background: #faf6f0; color: #222; }
+header { background: #8b3a0f; color: #fff; padding: 1rem 2rem; }
+nav button { margin-right: .5rem; padding: .6rem 1.2rem; font-size: 1rem; cursor: pointer; border: 0; border-radius: 6px; }
+main { padding: 2rem; max-width: 800px; margin: auto; }
+.card { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 1rem; margin-bottom: 1rem; }
+.status { font-size: .85rem; color: #666; }
+input, textarea { width: 100%; padding: .6rem; margin: .4rem 0 1rem; font-size: 1rem; box-sizing: border-box; }
