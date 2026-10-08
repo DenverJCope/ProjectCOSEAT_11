@@ -23,4 +23,5 @@ Denver-Gurushanth-Lithika-Sahajaveer-Sahil-Parav
 
 
 ## Libraries
-This parts for contributors, please keep a list of all packages and libraries you use during this project. i will create a list for users to install prior to using it
+This parts for contributors, please keep a list of all packages and libraries you use during this project. 
+A list will be created later with instructions for users of how to set up the environment prior to using it.
