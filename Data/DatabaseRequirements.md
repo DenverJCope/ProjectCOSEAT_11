@@ -88,7 +88,7 @@ Supporting information requirements include:
 
 The database must support relationships between the identified information without unnecessarily duplicating data. Knowledge items may be associated with multiple tags and relevant cultural protocols, while users may perform authorised review or approval activities. These relationships must support subsequent repository functionality including ingestion, human review, access control, classification and retrieval.
 
-The detailed relationship structure, including keys and cardinalities, will be defined during the database schema design stage.
+The detailed relationship structure, including keys and cardinalities, will be defined during the schema design stage.
 
 
 
