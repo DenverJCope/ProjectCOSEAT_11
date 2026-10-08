@@ -1,27 +1,33 @@
 # Development of a Traditional Knowledge Repository
 
+
 ## Project Description
 
-This project develops an AI framework to identify, store, and retrieve traditional community knowledge from marginalized communities around the world. Inclusive software design is essential to this project.
+The basis of this project is to develop an AI framework to identify, store, and retrieve traditional community knowledge from marginalized communities around the world. Inclusive software design is treated as an essential component of this project.
 
-In the initial phase, only established sources of knowledge will be included. The project will then be extended to incorporate informal sources of knowledge.
+In the initial development phase, only established sources of knowledge will be included. The project will be extended in future phases to incorporate informal sources of knowledge.
 
-## Highlights 
+
+## Main Objectives 
 
     - Digitialise First-Nations knowledge
-    - Create an accessible Repository catered to First-Nation communities
-    - Consent from Community leaders and elders is ongoing and consent can be withdrawn at any time
-    - Plans for phyiscal kiosks to coincide with project, allowing access by residents that don't have personal devices or internet access 
-    - Picgraphic design catering to users who's first,second or even third langauge may not be english
-    - AI for faster data parsing
-    - AI with ZERO hallucinations and all information is validated by humans before being added 
+    - Accessible repository catered to First-Nations communities
+    - Mandatory consent from custodians for traditional knowledge
+    - Pictographic design catering to non-english users
+    - AI usage for faster/more efficient data parsing
+    - AI with ZERO hallucinations
+    - Human-In-The-Loop validation 
+    - Plans for future phyiscal kiosks  
 
 
 ## Authors 
-Denver-Gurushanth-Lithika-Sahajaveer-Sahil-Parav
-
+- Denver Cope
+- Gurushanth Brammananthan 
+- Sahil Phogat 
+- Parav Sharma
+- Sahajaveer Singh 
+- Lithika Kotuwella
 
 
 ## Libraries
-This parts for contributors, please keep a list of all packages and libraries you use during this project. 
-A list will be created later with instructions for users of how to set up the environment prior to using it.
+This section is primarily for the developer team. All the packages and libraries used during this project will be noted here. A list will be created later with instructions for users of how to set up the environment prior to using it.
