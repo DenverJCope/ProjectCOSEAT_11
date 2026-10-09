@@ -8,27 +8,28 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="wrap">
+    <div class="wrap bar">
       <div class="brand">
-        <span class="brand-icon" aria-hidden="true">&#127963;</span>
-        <div>
-          <h1>Traditional Knowledge Repository</h1>
-          <p>Warumungu community &middot; Tennant Creek</p>
-        </div>
+        <h1>Traditional Knowledge Repository</h1>
+        <p>Warumungu community, Tennant Creek</p>
       </div>
-      <nav aria-label="Main">
-        <button data-view="search"><span aria-hidden="true">&#128269;</span> Search</button>
-        <button data-view="browse"><span aria-hidden="true">&#128214;</span> Browse</button>
-        <button data-view="submit"><span aria-hidden="true">&#128228;</span> Submit</button>
-        <button data-view="review"><span aria-hidden="true">&#9989;</span> Review queue <span id="count" class="count" hidden>0</span></button>
-      </nav>
+      <div id="auth" class="auth"></div>
     </div>
+    <nav class="wrap" aria-label="Main">
+      <button data-view="search"><i data-icon="search"></i> Search</button>
+      <button data-view="browse"><i data-icon="book-open"></i> Browse</button>
+      <button data-view="submit"><i data-icon="upload"></i> Submit</button>
+      <button data-view="review" id="reviewBtn" hidden><i data-icon="clipboard-check"></i> Review queue <span id="count" class="count" hidden>0</span></button>
+    </nav>
   </header>
+  <section class="wrap hero">
+    <p class="hero-title">Knowledge stays with the people who own it.</p>
+    <p class="hero-sub">Nothing is published until an authorised elder or reviewer approves it.</p>
+  </section>
   <main id="app" class="wrap"></main>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <footer class="wrap site-footer">
-    Prototype &middot; Nothing is published until an authorised elder or reviewer approves it.
-  </footer>
+  <footer class="wrap site-footer">Prototype. Sign-in here is a demo only; access rules are enforced by the backend.</footer>
+  <script src="../JS/icons.js"></script>
   <script src="../JS/app.js"></script>
 </body>
 </html>
