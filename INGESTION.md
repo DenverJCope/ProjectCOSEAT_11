@@ -58,6 +58,22 @@ Retrieval is TF-IDF cosine similarity (lexical, offline). To move to semantic
 retrieval later, swap the vectoriser in retrieval.py for sentence-transformer
 embeddings + FAISS; the abstain/citation logic stays the same.
 
+## 1b. Audio ingestion (ASR, baseline)
+For spoken sources (e.g. an elder recording), put audio in `Data/audio/` and run:
+
+```bash
+pip install openai-whisper      # plus ffmpeg on the system
+python Models/asr_ingest.py --all            # or --input Data/audio/file.mp3
+# larger model: --model small | medium | large
+```
+
+Whisper transcribes the audio, then the transcript goes through the SAME
+chunk -> relevance -> summarise -> pending flow as text. Audio records are marked
+`source_type: audio`, flagged `needs_transcript_check`, and default to
+`restricted` access. A reviewer must verify the transcript and set the access
+level before approving, because ASR makes mistakes and oral knowledge can be
+culturally sensitive.
+
 ## Next steps
 - Swap the flat `approved/` store for a database and the TF-IDF index for
   semantic embeddings (sentence-transformers + FAISS) as the corpus grows.
